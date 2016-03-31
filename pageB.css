@@ -6,7 +6,6 @@ body{
 	z-index: 3;
 	width: 281px;
 	height: 295px;
-	float: left;
 	position: absolute;
 	border-radius: 10px;
 }
@@ -15,20 +14,32 @@ body{
 	z-index: 2;
 	width: 281px;
 	height: 295px;
-	float: left;
-	position: absolute;
 
+	position: absolute;
 }
 
 #tex {
-	padding-top: 225px;
-	padding-left: 540px;
+	padding-left: 340px;
 	float: left;
 	position: absolute;
 	border-radius: 10px;
 	font-family: monospace;
 	color: red;
 	font-size: 120%
+}
+
+#fondbanpedo {
+	width: 499%;
+	height: 460px;
+	background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
+	border-radius: 10px;
+}
+
+#fondban {
+	width: 99%;
+	height: 360px;
+	background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
+	border-radius: 10px;
 }
 
 #ban {
@@ -41,7 +52,6 @@ body{
 }
 
 h1 {
-
 font-family: cursive;
 color: #F3D29A;
 text-align: center;
@@ -50,13 +60,15 @@ text-align: center;
 /* DEBUT FORMATAGE IMAGE */
 #im{
 	width: 93%;
-	height: 25%;
+	height: 5%;
 	padding-top: 20%;
+
 }
 
 img {
 	height: 205px;
 	width: 205px;
+	border-radius: 20px;
 }
 
 table{

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="Fr0.css">
+<head>
+  <title>Nounours-Land</title>
+</head>
+<body>
+<a href="file:///nfs/2014/s/smignard/perso/Fr0.html"> <h1 id="ban">Nounours-Land</h1></a>
+
+<ul id="menu-demo2">
+  <div id="test7">
+  <li><a href="file:///nfs/2014/s/smignard/perso/compte.html">mon compte</a>
+    <ul>
+      <li><a href="https://profile.intra.42.fr/">Profil</a></li>
+    </ul>
+  </li>
+  <li><a href="file:///nfs/2014/s/smignard/perso/Fr0.html">liste des ours</a>
+    <ul>
+      <li><a href="file:///nfs/2014/s/smignard/perso/oursb.html">ours polaire</a></li>
+      <li><a href="file:///nfs/2014/s/smignard/perso/zombie.html">ours zombie</a></li>
+      <li><a href="file:///nfs/2014/s/smignard/perso/oursbrun.html">ours brun</a></li>
+      <li><a href="file:///nfs/2014/s/smignard/perso/kawaii.html">ours kawaii</a></li>
+      <li><a href="file:///nfs/2014/s/smignard/perso/etoile.html">La grande ours</a></li>
+    </ul>
+  </li>
+  <li><a href="file:///nfs/2014/s/smignard/perso/solde.html">Soldes</a>
+    <ul>
+      <li><a href="file:///nfs/2014/s/smignard/perso/zombie.html">ours zombie</a></li>
+      <li><a href="file:///nfs/2014/s/smignard/perso/kawaii.html">ours kawaii</a></li>
+
+    </ul>
+  </li>
+  <li><a href="file:///nfs/2014/s/smignard/perso/panier.html">Mon panier</a>
+    <ul>
+      <li><a href="file:///nfs/2014/s/smignard/perso/panier.html">J'ai fini</a></li>
+    </div>
+    </ul>
+  </li>
+</ul>
+
+
+
+<form method="$_GET" action="index">
+    <input type="text" name="username" value="login" />
+    <input type="password" name="password" value="passwd" />
+    <input type="submit" name="OK" value="OK" />
+</form>
+</body>
+</html>
+
+<?php
+session_start();
+$login = $_GET["username"];
+$pass = $_GET["password"];
+
+if ($_GET["username"] && $_GET["password"])
+{
+  if ($login === "admin" && $pass === "admin") {
+    $_SESSION["log"] = $login;
+    $_SESSION["groupe"] = "admin";
+    echo "Bonjour\n";
+  }
+  else {
+    $_SESSION = array();
+    echo "faux\n";
+  }
+}

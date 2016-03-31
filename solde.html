@@ -38,18 +38,39 @@
 	</li>
 </ul>
 
-
-		<table>
+<table>
 		<tr>
 		<div id="im">
-		<td>
-		<h1 id="tex">Nourson Kawaii:</h1>
-		<div id="fondban">
-			<img src="./resources/rilakkuma.png">
-			<p id="tex2"> Fan du japon, alors cette ours est pour vous. Avouer il y trop mignon Rilakuma <br /> <br /> <br /> <br />pour le prix de 150 euro</p>
-		</div>
-			</td>
-		</tr></div>
+		<td>	<a href ="file:///nfs/2014/s/smignard/perso/zombie.html"class="info">
+				<img src="./resources/zombie.jpg"/>
+				<span>info ours zombie</span><p id="color3">ours zombie</p></a>
+		</td>
+		<td>	<a href ="file:///nfs/2014/s/smignard/perso/kawaii.html"class="info">
+				<img src="./resources/rilakkuma.png"/>
+				<span>info ours kawaii</span><p id="color4">ours kawaii</p></a>
+		</td>
 		</table>
-
+		<script>
+ 		 function show(id) {
+  		 	 document.getElementById(id).style.visibility = "visible";
+  			}
+  		function hide(id) {
+    		document.getElementById(id).style.visibility = "hidden";
+ 		 }
+		</script>
+	<table>
+	<tr>
+  		<td>
+  			<div id="boton" onMouseOver="show('vid')" onMouseOut="hide('vid')">
+  			<iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/-Mr5ZKTtJQc" frameborder="0" allowfullscreen></iframe>
+  			<p>Passe ta souris ici</p>
+  		</td>
+  		<td>
+  			<div id="boton" onMouseOver="show('vide')" onMouseOut="hide('vide')">
+  			<iframe id="vide" width="560" height="315" src="https://www.youtube.com/embed/0uyThy64pKs" frameborder="0" allowfullscreen></iframe>
+  			<p>Passe ta souris ici</p>
+  		</td>
+  	</tr>
+  	</table>
 </body>
+</html>
