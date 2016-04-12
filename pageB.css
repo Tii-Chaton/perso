@@ -14,7 +14,6 @@ body{
 	z-index: 2;
 	width: 281px;
 	height: 295px;
-
 	position: absolute;
 }
 
@@ -27,6 +26,7 @@ body{
 	color: red;
 	font-size: 120%
 }
+
 
 #fondbanpedo {
 	width: 499%;
@@ -41,6 +41,13 @@ body{
 	background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
 	border-radius: 10px;
 }
+#fondban2 {
+	width: 99%;
+	height: 50%;
+	background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
+	border-radius: 10px;
+}
+
 
 #ban {
 
@@ -50,7 +57,10 @@ body{
 	background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
 	border-radius: 10px;
 }
-
+#pani {
+	color: black;
+	background-color:pink;
+}
 h1 {
 font-family: cursive;
 color: #F3D29A;
@@ -62,14 +72,8 @@ text-align: center;
 	width: 93%;
 	height: 5%;
 	padding-top: 20%;
-
 }
 
-img {
-	height: 205px;
-	width: 205px;
-	border-radius: 20px;
-}
 
 table{
 	margin: auto;

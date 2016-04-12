@@ -10,6 +10,7 @@ background-image: url("./resources/pika.png");
 	background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
 	border-radius: 10px;
 }
+
 #color1{
    width: 110px;
    margin-top: 0px;
@@ -68,6 +69,18 @@ font-family: cursive;
 color: #F3D29A;
 text-align: center;
 }
+/* debut champ connection*/
+#fondban {
+   width: 99%;
+   height: 360px;
+   background-image: linear-gradient(to left, pink, #71B2F2, #F2B784, #84F2DC);
+   border-radius: 10px;
+}
+#idpwd {
+   text-align: center;
+   margin-top: 20px;
+}
+/* fin champ connection*/
 
 /* DEBUT FORMATAGE IMAGE */
 #im{
